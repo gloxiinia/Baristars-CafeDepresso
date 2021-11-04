@@ -8,8 +8,10 @@
    **Team**     : Baristars
    
    **Members**  :
-        Jessica Sie - 
-        Rachel Anastasia Wijaya - 2502009646
+        
+   Jessica Sie - 
+        
+   Rachel Anastasia Wijaya - 2502009646
           
    **Description of our app**:
        
