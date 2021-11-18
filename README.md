@@ -9,7 +9,7 @@
    
    **Members**  :
         
-   Jessica Sie - 
+   Jessica Sie - 2502053653
         
    Rachel Anastasia Wijaya - 2502009646
           
