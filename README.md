@@ -25,8 +25,9 @@ Therefore, Cafe Depresso was created.
    - An experience with various characters the user can step into the shoes as and show how mental health can affect our lives in different ways
    - Relaxing, chill ambiance, reminiscent of a Cafe one can just hangout at
        
-   **Additional info**:
+   **Target Users**:The general Indonesian public seeking to learn about mental health in a fun and engaging way
        
    **Poster**:
+   
        
        
