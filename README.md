@@ -15,9 +15,9 @@
           
    **Description of our app**:
        
-Seeing how the pandemic has fundamentally changed the way we live and the added emotional and mental baggage that comes with it, we wanted to create an app that could educate and spread the message about the importance of mental health. But, from what we've seen, most mental health apps come off as not too engaging, therefore, we thought: "Why not make the journey of cultivating and caring for your mental health more of an experience?". 
+   Seeing how the pandemic has fundamentally changed the way we live and the added emotional and mental baggage that comes with it, we wanted to create an app that could educate     and spread the message about the importance of mental health. But, from what we've seen, most mental health apps come off as not too engaging, therefore, we thought: "Why       not make the journey of cultivating and caring for your mental health more of an experience?". 
 
-Therefore, Cafe Depresso was created.
+   Therefore, Cafe Depresso was created.
        
    **Features**:
       
@@ -25,7 +25,8 @@ Therefore, Cafe Depresso was created.
    - An experience with various characters the user can step into the shoes as and show how mental health can affect our lives in different ways
    - Relaxing, chill ambiance, reminiscent of a Cafe one can just hangout at
        
-   **Target Users**:The general Indonesian public seeking to learn about mental health in a fun and engaging way
+   **Target Users**:
+   The general Indonesian public seeking to learn about mental health in a fun and engaging way
        
    **Poster**:
    
