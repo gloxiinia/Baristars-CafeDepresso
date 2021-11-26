@@ -16,6 +16,7 @@ body {
   margin: 0px;
   padding: 0px;
   color: #fff;
+  z-index: 0;
 }
 
 body, html {
@@ -23,8 +24,15 @@ body, html {
   margin: 0;
 }
 
+.title_audio {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  z-index: 3;
+}
+
 .title_screen {
-  background-image: url("images/background_menu.png");
+  background-image: url("background_menu.png");
   width: 100%;
   height: auto;
   background-position: center;
@@ -37,5 +45,21 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media only screen and (max-width: 1000px) {
+  .title_screen {
+    background-image: url("background_menu.png");
+    width: 200%;
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .title_screen {
+    background-image: url("background_menu.png");
+    width: 400%;
+    background-position: center;
+  }
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
