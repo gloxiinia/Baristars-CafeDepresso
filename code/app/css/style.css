@@ -26,11 +26,19 @@ body, html {
 
 .title_audio {
   position: absolute;
-  left: 50%;
-  right: 50%;
   z-index: 3;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.big_title {
+  position:absolute;
+  width: 400px ;
+}
 .title_screen {
   background-image: url("background_menu.png");
   width: 100%;
@@ -39,24 +47,19 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-@media only screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1000px) {
   .title_screen {
     background-image: url("background_menu.png");
     width: 200%;
-    background-position: center;
+    background-position: right;
   }
 }
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .title_screen {
     background-image: url("background_menu.png");
     width: 400%;
-    background-position: center;
+    background-position: right;
   }
 }
 

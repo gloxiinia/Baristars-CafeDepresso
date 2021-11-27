@@ -29,6 +29,9 @@
    The general Indonesian public seeking to learn about mental health in a fun and engaging way
        
    **Poster**:
+
+   **DISCLAIMER**
+   Artwork, images, and photos used are just placeholders and concepts for what the product could look like
    
        
        
