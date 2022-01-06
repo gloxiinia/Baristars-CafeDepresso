@@ -45,6 +45,7 @@ body, html {
   color: white;
 }
 
+/* yellow join now button */
 .button {
     background-color: #FCD43C;
     border-radius: 5px; /* make rounded corners*/
@@ -62,4 +63,24 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:Poppins;
-  }
+}
+
+/* coffee shop logos in a row */
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
