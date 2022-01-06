@@ -69,7 +69,7 @@ body, html {
 .column {
     float: left;
     width: 20%;
-    padding: 20px;
+    padding: 10px;
 }
   
 .row::after {
@@ -77,8 +77,15 @@ body, html {
     clear: both;
     display: table;
 }
+
+img:hover{
+
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
   
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* resposive - coffee shop logos in a row  */
 @media screen and (max-width: 500px) {
     .column {
         width: 100%;
