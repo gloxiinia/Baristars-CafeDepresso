@@ -128,6 +128,7 @@ h2{
 
 .button {
   background-color: #FCD43C;
+  border-radius: 5px; /* make rounded corners*/
   border: none;
   color: black;
   padding: 15px 32px;
