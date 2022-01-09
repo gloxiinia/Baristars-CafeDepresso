@@ -104,6 +104,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
+
+}
+
+.login {
+  float:right;
 }
 
 .centered {
@@ -155,6 +160,7 @@ h2{
     background-size: 100% auto;
     background-position: center top;
   }
+
   .centered {
     /* Font family and text style*/
     font-family: Fredericka the Great;
@@ -171,6 +177,9 @@ h2{
     background-size: 100% auto;
     background-position: center top;
     
+  }
+  .login{
+    float:none;
   }
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
