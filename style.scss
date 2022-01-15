@@ -20,7 +20,7 @@ $light-white:#eee;
 
 $black:#444;
 $white:#fff;
-$border:.1rem solid $green;
+$border:0.1rem solid $green;
 $box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 
 @mixin grid($val) {
@@ -88,6 +88,7 @@ section{
 .heading{
    text-align: center;
    margin-bottom: 3rem;
+   
    @include titleText(3.5rem);
 }
 
@@ -322,6 +323,7 @@ section{
          
          #join-now-btn, #get-started-btn, #get-started-btn2{
             border-radius: 10px;
+            font-weight: bold;
             
          }
 
@@ -332,10 +334,38 @@ section{
 
 .swiper-pagination-bullet-active{
    background: $green;
+   
 }
 
-.subjects{
+.border-main-contents{
+   border: 50px solid $light-green;
+   //box-shadow: 10px 10px 5px grey;
+   padding: 0;
+   
+   
+   
 
+}
+
+.main-contents{
+   // box-shadow: 10px 10px 5px grey ;
+   box-shadow:  4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 15px 5px rgba(0, 0, 0, 0.19);
+   padding:0;
+   padding-bottom: 10%;
+   
+}
+.subjects{
+   .heading{
+      padding: 2% 0%;
+      margin-bottom: 1%;
+      font-weight: bold;
+      // font-size: 
+   }
+   h1{
+      font-weight: bold;
+      border-bottom: 5px solid $green;
+      
+   }
    .box-container{
       @include grid(16rem);
 
@@ -345,6 +375,7 @@ section{
          border:$border;
          background: $light-green;
          border-radius: 6px;
+         // box-shadow: $box-shadow;
          
 
          cursor: pointer;
@@ -355,6 +386,7 @@ section{
 
             h3{
                color:$white;
+               font-weight: bold;
             }
 
             p{
@@ -386,6 +418,7 @@ section{
       position: relative;
       background: $light-green;
       overflow:hidden;
+      // box-shadow: $box-shadow;
 
       &:hover .content{
          bottom: 0;
