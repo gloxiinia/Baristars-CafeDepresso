@@ -1,3 +1,5 @@
+// Show and hide account-form
+// querySelector() method - returns the first element that matches a specified CSS selector/s in the document.
 let navbar = document.querySelector('.header .navbar')
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -7,6 +9,13 @@ document.querySelector('#menu-btn').onclick = () =>{
 document.querySelector('#close-navbar').onclick = () =>{
   navbar.classList.remove('active');
 };
+
+// let joinNow = document.querySelector('.header .navbar')
+
+// document.querySelector('#join-now-btn').onclick = () =>{
+//   navbar.classList.add('active');
+// }
+
 
 let registerBtn = document.querySelector('.account-form .register-btn');
 let loginBtn = document.querySelector('.account-form .login-btn');

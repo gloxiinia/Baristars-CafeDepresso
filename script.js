@@ -1,3 +1,4 @@
+// querySelector() method - returns the first element that matches a specified CSS selector/s in the document.
 let navbar = document.querySelector('.header .navbar')
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -8,6 +9,7 @@ document.querySelector('#close-navbar').onclick = () =>{
   navbar.classList.remove('active');
 };
 
+// Account-form 'register' 'login' tabs
 let registerBtn = document.querySelector('.account-form .register-btn');
 let loginBtn = document.querySelector('.account-form .login-btn');
 
@@ -25,6 +27,7 @@ loginBtn.onclick = () =>{
   document.querySelector('.account-form .register-form').classList.remove('active');
 };
 
+// Show and hide account-form with icon and join-now btn
 let accountForm = document.querySelector('.account-form')
 
 document.querySelector('#account-btn').onclick = () =>{
@@ -34,6 +37,24 @@ document.querySelector('#account-btn').onclick = () =>{
 document.querySelector('#close-form').onclick = () =>{
   accountForm.classList.remove('active');
 };
+
+document.querySelector('#join-now-btn').onclick = () =>{
+  accountForm.classList.add('active');
+}
+
+console.log('hello world')
+
+document.querySelector('#get-started-btn').onclick = () =>{
+  accountForm.classList.add('active');
+}
+
+console.log('hello world')
+
+document.querySelector('#get-started-btn2').onclick = () =>{
+  accountForm.classList.add('active');
+}
+
+console.log('hello world')
 
 var swiper = new Swiper(".home-slider", {
   pagination: {

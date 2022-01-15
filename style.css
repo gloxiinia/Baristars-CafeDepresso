@@ -151,8 +151,7 @@ section {
 }
 
 .header .navbar a:hover {
-  background-color: #dacbb9;
-
+  color: #845318;
 }
 
 .header .icons div {
@@ -163,7 +162,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #d8bfa0;
+  color: #845318;
 }
 
 .header #menu-btn {
@@ -300,11 +299,17 @@ section {
   width: 50rem;
 }
 
+.home .slide .content .text {
+  background-color: rgba(132, 83, 24, 0.8);
+  border-radius: 20px;
+}
+
 .home .slide .content h3 {
   font-size: 5rem;
   text-transform: capitalize;
   color: #444;
   color: #fff;
+  padding-left: 2%;
 }
 
 .home .slide .content p {
@@ -313,6 +318,8 @@ section {
   color: #777;
   color: #eee;
   padding: 1rem 0;
+  margin-bottom: 5%;
+  padding-left: 2%;
 }
 
 .swiper-pagination-bullet-active {
@@ -416,8 +423,7 @@ section {
 }
 
 .home-courses .slide .content .btn:hover {
-  background: #fcd43c;
-  color: #444;
+  background: #444;
 }
 
 .about {
@@ -533,7 +539,7 @@ section {
 }
 
 .teachers .slide .image .share a:hover {
-  color: #fcd43c;
+  color: #845318;
 }
 
 .teachers .slide .content {
@@ -1049,5 +1055,29 @@ section {
   .about .content .about-title {
     font-size: 4rem;
   }
+}
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 5vw;
 }
 /*# sourceMappingURL=style.css.map */

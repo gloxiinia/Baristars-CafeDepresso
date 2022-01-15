@@ -275,16 +275,27 @@ section{
 
       .content{
          width: 50rem;
+         .text{
+            background-color: rgba(132, 83, 24,.8);//rgba(0,0,0,.2);
+            border-radius: 20px;
+            
+         }
+
 
          h3{
             @include titleText(5rem);
             color:$white;
+            padding-left: 2%
+            
+
          }
 
          p{
             @include graphText(1.6rem);
             color:$light-white;
             padding:1rem 0;
+            margin-bottom: 5%;
+            padding-left: 2%;
          }
       }
    }
