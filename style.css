@@ -151,7 +151,8 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #845318;
+  background-color: #dacbb9;
+
 }
 
 .header .icons div {
@@ -162,7 +163,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #845318;
+  color: #d8bfa0;
 }
 
 .header #menu-btn {
@@ -415,7 +416,8 @@ section {
 }
 
 .home-courses .slide .content .btn:hover {
-  background: #444;
+  background: #fcd43c;
+  color: #444;
 }
 
 .about {
@@ -531,7 +533,7 @@ section {
 }
 
 .teachers .slide .image .share a:hover {
-  color: #845318;
+  color: #fcd43c;
 }
 
 .teachers .slide .content {
