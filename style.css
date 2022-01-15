@@ -319,7 +319,7 @@ section {
 
 .home .slide .content .text {
   background-color: rgba(132, 83, 24, 0.3);
-  border-radius: 20px;
+  border-radius: 1px;
 }
 
 .home .slide .content h3 {
@@ -362,11 +362,14 @@ section {
   text-align: center;
   border: 0.1rem solid #845318;
   background: #dacbb9;
+  border-radius: 6px;
   cursor: pointer;
 }
 
 .subjects .box-container .box:hover {
   background: #845318;
+  -webkit-box-shadow: 10px 10px 8px #a9a9a9;
+          box-shadow: 10px 10px 8px #a9a9a9;
 }
 
 .subjects .box-container .box:hover h3 {
@@ -443,6 +446,11 @@ section {
   line-height: 2;
   color: #777;
   color: #eee;
+}
+
+.home-courses .slide .content .btn {
+  border-radius: 10px;
+  padding: 15px 20px;
 }
 
 .home-courses .slide .content .btn:hover {
@@ -949,14 +957,15 @@ section {
 }
 
 .footer .box-container .box .share a {
-  height: 4.5rem;
-  width: 4.5rem;
-  line-height: 4.5rem;
-  font-size: 1.7rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2.3rem;
   background-color: #845318;
   color: #fff;
-  margin-right: .3rem;
+  margin-right: 6px;
   text-align: center;
+  border-radius: 100%;
 }
 
 .footer .box-container .box .share a:hover {
@@ -986,7 +995,7 @@ section {
 .footer .box-container .box .email {
   width: 100%;
   padding: 1.2rem 1.4rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   border: 0.1rem solid #845318;
   margin-bottom: 1rem;
 }
