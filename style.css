@@ -761,6 +761,15 @@ section {
   text-align: center;
 }
 
+.get-help .heading-link {
+  padding-top: 0;
+}
+
+.get-help .heading-link img {
+  width: 10%;
+  height: auto;
+}
+
 .contact .icons-container {
   margin-bottom: 3rem;
   display: -ms-grid;
