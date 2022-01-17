@@ -38,23 +38,7 @@ document.querySelector('#close-form').onclick = () =>{
   accountForm.classList.remove('active');
 };
 
-document.querySelector('#join-now-btn').onclick = () =>{
-  accountForm.classList.add('active');
-}
 
-console.log('hello world')
-
-document.querySelector('#get-started-btn').onclick = () =>{
-  accountForm.classList.add('active');
-}
-
-console.log('hello world')
-
-document.querySelector('#get-started-btn2').onclick = () =>{
-  accountForm.classList.add('active');
-}
-
-console.log('hello world')
 
 var swiper = new Swiper(".home-slider", {
   pagination: {
@@ -154,3 +138,21 @@ document.querySelector('.load-more .btn').onclick = () =>{
   });
   document.querySelector('.load-more .btn').style.display = 'none';
 };
+
+document.querySelector('#join-now-btn').onclick = () =>{
+  accountForm.classList.add('active');
+};
+
+console.log('hello world')
+
+document.querySelector('#get-started-btn').onclick = () =>{
+  accountForm.classList.add('active');
+};
+
+console.log('hello world')
+
+document.querySelector('#get-started-btn2').onclick = () =>{
+  accountForm.classList.add('active');
+};
+
+console.log('hello world')
