@@ -132,12 +132,7 @@ accordion.forEach(acco =>{
   };
 });
 
-document.querySelector('.load-more .btn').onclick = () =>{
-  document.querySelectorAll('.courses .box-container .hide').forEach(show =>{
-    show.style.display = 'block';
-  });
-  document.querySelector('.load-more .btn').style.display = 'none';
-};
+
 
 document.querySelector('#join-now-btn').onclick = () =>{
   accountForm.classList.add('active');
@@ -156,3 +151,10 @@ document.querySelector('#get-started-btn2').onclick = () =>{
 };
 
 console.log('hello world')
+
+document.querySelector('.load-more .btn').onclick = () =>{
+  document.querySelectorAll('.courses .box-container .hide').forEach(show =>{
+    show.style.display = 'block';
+  });
+  document.querySelector('.load-more .btn').style.display = 'none';
+};
