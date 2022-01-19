@@ -658,6 +658,24 @@ section{
 }
 
 .courses{
+   .search-bar-container{
+      margin-bottom: 3rem;
+      .btn{
+         color: $white;
+         background-color: $green;
+      }
+
+      input[type=text] {
+         padding: 1rem;
+         margin-top: 8px;
+         font-size: 17px;
+         border:2px;
+         border-color: $black;
+         width: 90%;
+         border:2px solid grey;
+         
+      }
+   }
 
    .box-container{
       @include grid(30rem);

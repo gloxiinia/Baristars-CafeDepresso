@@ -695,6 +695,25 @@ section {
   color: #845318;
 }
 
+.courses .search-bar-container {
+  margin-bottom: 3rem;
+}
+
+.courses .search-bar-container .btn {
+  color: #fff;
+  background-color: #845318;
+}
+
+.courses .search-bar-container input[type=text] {
+  padding: 1rem;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 2px;
+  border-color: #444;
+  width: 90%;
+  border: 2px solid grey;
+}
+
 .courses .box-container {
   display: -ms-grid;
   display: grid;
