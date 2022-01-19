@@ -17,6 +17,8 @@ $green:#845318;
 $light-green:#dacbb9;
 $light-color:#777;
 $light-white:#eee;
+$button-green:#31b768;
+$darker-green:#185b34;
 
 $black:#444;
 $white:#fff;
@@ -162,7 +164,7 @@ section{
       margin-left: 1.5rem;
 
       &:hover{
-         color:$green;
+         color:$button-green;
       }
    }
 
@@ -323,9 +325,20 @@ section{
          
          #join-now-btn, #get-started-btn, #get-started-btn2{
             border-radius: 10px;
+            border-width: 0;
             font-weight: bold;
-            
+            color: $white;
+            background-color: $button-green;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
          }
+         #join-now-btn:hover, #get-started-btn:hover, #get-started-btn2:hover{
+            background-color: $darker-green;
+            color: $white;
+
+         }
+
+
 
          
       }

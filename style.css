@@ -162,7 +162,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #845318;
+  color: #31b768;
 }
 
 .header #menu-btn {
@@ -343,7 +343,17 @@ section {
 
 .home .slide .content #join-now-btn, .home .slide .content #get-started-btn, .home .slide .content #get-started-btn2 {
   border-radius: 10px;
+  border-width: 0;
   font-weight: bold;
+  color: #fff;
+  background-color: #31b768;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.home .slide .content #join-now-btn:hover, .home .slide .content #get-started-btn:hover, .home .slide .content #get-started-btn2:hover {
+  background-color: #185b34;
+  color: #fff;
 }
 
 .swiper-pagination-bullet-active {
