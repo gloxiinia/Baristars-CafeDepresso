@@ -19,6 +19,7 @@ $light-color:#777;
 $light-white:#eee;
 $button-green:#31b768;
 $darker-green:#185b34;
+$yellow:#fcd43c;
 
 $black:#444;
 $white:#fff;
@@ -254,6 +255,20 @@ section{
 
       .btn{
          width: 100%;
+         background-color: #fcd43c;
+         color: $black;
+         font-weight: 900;
+         border-color: $black;
+         border-width: 2px;
+         border-radius: 10px;
+      }
+
+      .btn:hover{
+         color: $white;
+         background-color: $green ;
+         border-color: $green;
+         
+         
       }
    }
 
@@ -470,9 +485,13 @@ section{
          .btn{
             border-radius:10px;
             padding: 15px 20px;
+            color: $white;
+            background-color: $button-green;
+            font-weight: 900;
          }
          .btn:hover{
-            background: $black;
+            background: $darker-green;
+
          }
       }
    }
@@ -678,6 +697,21 @@ section{
             padding:2rem;
             text-align: center;
             border:$border;
+
+            .btn{
+               background-color: $button-green;
+               color: $white;
+                  border-width: 0;
+               border-radius: 10px;
+               font-weight: bold;
+               
+
+
+            }
+
+            .btn:hover{
+               background-color: $darker-green
+            }
 
             h3{
                @include titleText(2rem);
@@ -948,6 +982,20 @@ section{
             font-size: 2rem;
             border:$border;
             margin-bottom: 1rem;
+         }
+
+         .btn{
+            border-radius: 10px;
+            color: $white;
+            background-color: $green;
+
+         }
+         
+         .btn:hover{
+            color: $black;
+            background-color: $yellow;
+            border-color: $black;
+            font-weight: bold;
          }
       }
    }

@@ -268,6 +268,18 @@ section {
 
 .account-form form .btn {
   width: 100%;
+  background-color: #fcd43c;
+  color: #444;
+  font-weight: 900;
+  border-color: #444;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.account-form form .btn:hover {
+  color: #fff;
+  background-color: #845318;
+  border-color: #845318;
 }
 
 .account-form .buttons .btn {
@@ -486,10 +498,13 @@ section {
 .home-courses .slide .content .btn {
   border-radius: 10px;
   padding: 15px 20px;
+  color: #fff;
+  background-color: #31b768;
+  font-weight: 900;
 }
 
 .home-courses .slide .content .btn:hover {
-  background: #444;
+  background: #185b34;
 }
 
 .about {
@@ -725,6 +740,18 @@ section {
   padding: 2rem;
   text-align: center;
   border: 0.1rem solid #845318;
+}
+
+.courses .box-container .box .content .btn {
+  background-color: #31b768;
+  color: #fff;
+  border-width: 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.courses .box-container .box .content .btn:hover {
+  background-color: #185b34;
 }
 
 .courses .box-container .box .content h3 {
@@ -1042,6 +1069,19 @@ section {
   font-size: 2rem;
   border: 0.1rem solid #845318;
   margin-bottom: 1rem;
+}
+
+.footer .box-container .box .btn {
+  border-radius: 10px;
+  color: #fff;
+  background-color: #845318;
+}
+
+.footer .box-container .box .btn:hover {
+  color: #444;
+  background-color: #fcd43c;
+  border-color: #444;
+  font-weight: bold;
 }
 
 .footer .credit {
