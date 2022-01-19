@@ -1141,5 +1141,9 @@ section {
   height: 100%;
 }
 
-
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 5vw;
+}
 /*# sourceMappingURL=style.css.map */
