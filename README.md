@@ -28,8 +28,14 @@
    **Target Users**:
    The general Indonesian public seeking to learn about mental health in a fun and engaging way
    
-   **Video Demo**:
+   **Old Video Demo**:
    https://drive.google.com/file/d/14_946t3SrBWdS_oYP2-xFNbeA-B1M9W7/view?usp=sharing
+   
+   **Updated Video Demo**:
+   
+   Google Drive Link:https://drive.google.com/file/d/1AjMMl6k95HBfbxEcOLVTYRMa6g5_iojr/view?usp=sharing
+   
+   YouTube Link: https://youtu.be/HP4RKeKKB8g
        
    **Poster**:
    The poster can be viewed in the docs folder of the repository
